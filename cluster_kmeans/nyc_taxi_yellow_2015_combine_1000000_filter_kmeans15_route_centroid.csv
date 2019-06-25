@@ -1,0 +1,16 @@
+centroid_pick_long,centroid_pick_lat,centroid_drop_long,centroid_drop_lat,cluster,pickup_neighborhood,pickup_county,dropoff_neighborhood,dropoff_county,trip_number
+-73.99684597110655,40.73046901364479,-73.98360693493571,40.752228437802735,0,Manhattan Community Board 2,Manhattan,Manhattan Community Board 5,New York County,126692
+-73.78489638212214,40.64632749865988,-73.97341133926801,40.73989700081168,1,Queens,Queens County,Manhattan Community Board 6,New York County,17312
+-73.97255537326285,40.75318439321497,-73.78727800843309,40.655710485906795,2,Manhattan Community Board 6,New York County,Queens,Queens County,9387
+-73.9617897355832,40.77542240534604,-73.97679693396084,40.759184977464095,3,Manhattan Community Board 8,New York County,Manhattan Community Board 5,New York County,108323
+-73.98092430828345,40.75541873878594,-73.99693371718685,40.727779282305065,4,Manhattan Community Board 5,New York County,Manhattan Community Board 2,New York County,108080
+-73.87143304750467,40.77006243811695,-73.96931309202613,40.747050041627396,5,Queens,Queens County,Manhattan Community Board 6,New York County,24188
+-73.98333751672529,40.75640628863645,-73.9831548677076,40.75663496648128,6,Manhattan Community Board 5,New York County,Manhattan Community Board 5,New York County,191543
+-73.96713838563267,40.753693687836055,-73.87647022814326,40.76058319821251,7,Manhattan Community Board 6,New York County,Queens,Queens County,24527
+-73.98146127468294,40.75353129014264,-73.95767428493383,40.77847368101419,8,Manhattan Community Board 5,New York County,Manhattan Community Board 8,New York County,100027
+-73.98316074614328,40.72105657435411,-73.9620482803222,40.68446962831725,9,Manhattan Community Board 3,New York County,Clinton Hill,Kings County,37015
+-73.78859428201464,40.653565217473385,-73.81427413715001,40.70075084143839,10,Queens,Queens County,Queens,Queens County,4332
+-73.99130699757316,40.747012438683655,-74.17472232312045,40.689475932547715,11,Manhattan Community Board 4,New York County,Terminal B Level 3,Newark,1845
+-73.96108783204862,40.7839875732094,-73.95878994296004,40.78660973966002,12,Upper East Side,New York County,Upper East Side,New York County,99439
+-73.99820417377116,40.726212042161954,-73.99883211310544,40.72436961414343,13,Manhattan Community Board 2,New York County,Manhattan Community Board 2,New York County,116502
+-73.96880401940291,40.77222563641844,-73.92503760755886,40.84308690956244,14,Upper East Side,New York County,The Bronx,Bronx County,14485
