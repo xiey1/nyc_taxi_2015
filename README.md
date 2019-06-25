@@ -37,9 +37,8 @@ NYC green and yellow taxi trip data in year 2015
 
 ### 4. Total number of trips on each month
 <img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Total_trip_number_month.png' width=600px>
-Overall, March, April and May are the months with the highest total trip number for both NYC green and yellow taxi. This might be due to the improved weather conditions since the winter season so that people can have more outdoor activites. The trip number plunges since May and hits the bottom in August and September. One possible explanation is the expanding business of [Uber](https://www.amny.com/transit/manhattan-taxi-trips-plunge-almost-4-million-in-3-months-analysis-1.10984180).
-
-
+<br>Overall, March, April and May are the months with the highest total trip number for both NYC green and yellow taxi. This might be due to the improved weather conditions since the winter season so that people can have more outdoor activites. The trip number plunges since May and hits the bottom in August and September. One possible explanation is the expanding business of Uber.
+<br>reference: https://www.amny.com/transit/manhattan-taxi-trips-plunge-almost-4-million-in-3-months-analysis-1.10984180
 
 ### Heatmap for green taxi pickup and dropoff density by hour
 <img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/animation/green_taxi_pickup_hour.gif' width=400px><img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/animation/green_taxi_dropoff_hour.gif' width=400px>
