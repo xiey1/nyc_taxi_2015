@@ -6,7 +6,7 @@ NYC green and yellow taxi trip data in year 2015
 * [Part II: Exploratory data analysis](#PartII_link)
 * [Part III: Create animation of geographical heatmaps of trip density and speed](#PartIII_link)
 * [Part IV: K-means clustering](#PartIV_link)
-* Part V: Geohash encoding and analyze the top10 popular routes for NYC green and yellow taxi 
+* [Part V: Geohash encoding and the top10 popular routes](#PartV_link)
 
 <a id='PartI_link'></a>
 ## Part I: Summary statistics
@@ -133,3 +133,7 @@ The animation of taxi trips operating between each cluster is shown here:
 <br>The number of inbound and outbound trips in each area:
 
 <img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Outbound_Inbound_green.png' width=400px><img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Outbound_Inbound_yellow.png' width=400px>
+
+
+<a id='PartI_link'></a>
+## Part V: Geohash encoding and the top10 popular routes
