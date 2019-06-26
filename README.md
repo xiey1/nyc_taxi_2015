@@ -3,10 +3,8 @@ NYC green and yellow taxi trip data in year 2015
 <br>Data source: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
 * [Part I: Data cleaning, pre-processing, computation and visualization of summary statistics](#PartI_link)
-
 * [Part II: Exploratory data analysis](#PartII_link)
-
-* Part III: Create animation of geographical heatmaps of pickup and dropoff trip density as well as speed
+* [Part III: Create animation of geographical heatmaps of trip density and speed](#PartIII_link)
 * Part IV: K-means clustering, data interpretation and visualization
 * Part V: Geohash encoding and analyze the top10 popular routes for NYC green and yellow taxi 
 
@@ -78,6 +76,36 @@ Since weekend has very different trip patterns from weekday, it is helpful to an
 <img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Trip_direction.png' width=600px>
 
 The two main peaks in trip direction for yellow taxi center around 60 and -120 degree respectively. This aligns with the long axis of Manhattan with 60 corresponding to uptown trips and -120 corresponding to downtown trips. Green taxi still has the direction peak centered around -120 degree while the 60 degree peak is not very distinct. This suggests that there are more trips heading downtown compared to updown for green taxi. Since green taxi mainly operates in regions outside Manhanttan, distribution of trip direction has a more uniform distribution except for the peak at -120 degree.
+
+### 4. Correlation between trip_distance, trip_duration and fare_amount
+<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Trip_distance_duration.png' width=600px>
+<br>Pearson correlation for trip distance and trip duration for NYC green taxi data: 0.793
+<br>Pearson correlation for trip distance and trip duration for NYC yellow taxi data: 0.781
+
+<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Trip_distance_amount.png' width=600px>
+<br>Pearson correlation for trip distance and fare amount for NYC green taxi data: 0.940
+<br>Pearson correlation for trip distance and fare amount for NYC yellow taxi data: 0.954
+The majority of the trips with fare amount of $52 are trips with either pickup or dropoff locations at JFK.
+
+### 5. Temporal distribution of trip_duration, speed, trip_distance and fare_amount
+#### Trip duration
+<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Trip_duration_hour_green.png' width=600px>
+<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Trip_duration_hour_yellow.png' width=600px>
+
+#### Speed
+<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Trip_speed_hour_green.png' width=600px>
+<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Trip_speed_hour_yellow.png' width=600px>
+
+#### Trip distance
+<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Trip_distance_hour_green.png' width=600px>
+<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Trip_distance_hour_yellow.png' width=600px>
+
+#### fare amount
+<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Trip_amount_hour_green.png' width=600px>
+<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Trip_amount_hour_yellow.png' width=600px>
+
+<a id='PartI_link'></a>
+## Part III: Create animation of geographical heatmaps of trip density and speed
 
 
 ### Heatmap for green taxi pickup and dropoff density by hour
