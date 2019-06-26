@@ -2,16 +2,16 @@
 NYC green and yellow taxi trip data in year 2015
 <br>Data source: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
-* [PartI: Data cleaning, pre-processing, computation and visualization of summary statistics](#PartI_link)
+* [Part I: Data cleaning, pre-processing, computation and visualization of summary statistics](#PartI_link)
 
-* [PartII: Exploratory data analysis](#PartII_link)
+* [Part II: Exploratory data analysis](#PartII_link)
 
-* PartIII: Create animation of geographical heatmaps of pickup and dropoff trip density as well as speed
-* PartIV: K-means clustering, data interpretation and visualization
-* PartV: Geohash encoding and analyze the top10 popular routes for NYC green and yellow taxi 
+* Part III: Create animation of geographical heatmaps of pickup and dropoff trip density as well as speed
+* Part IV: K-means clustering, data interpretation and visualization
+* Part V: Geohash encoding and analyze the top10 popular routes for NYC green and yellow taxi 
 
 <a id='PartI_link'></a>
-## PartI: Data cleaning, pre-processing, computation and visualization of summary statistics
+## Part I: Data cleaning, pre-processing, computation and visualization of summary statistics
 ### Summary of dataset statistics:
     Total number of trip records for NYC green taxi: 19233765
     Total number of trip records for NYC yellow taxi: 146112989
@@ -41,8 +41,33 @@ NYC green and yellow taxi trip data in year 2015
 <br>(reference: https://www.amny.com/transit/manhattan-taxi-trips-plunge-almost-4-million-in-3-months-analysis-1.10984180)
 
 <a id='PartII_link'></a>
-## PartII: Exploratory data analysis
+## Part II: Exploratory data analysis
 Here I randomly selected 1,000,000 trip records from each of green and yellow taxi datasets for exploratory data analysis.
+### 1. Geographical features
+<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Geographical_distribution_map_green.png' width=600px>
+<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Geographical_distribution_map_yellow.png' width=600px>
+
+* 1. NYC green taxi has almost zero pickup in upper east side, midtown or downtown Manhattan, consistent with the regulation that green taxi is not allowed to pick up passengers below West 110th and East 96th streets in Manhattan.
+
+* 2. Pickup locations for yellow taxi is highly enriched in upper east side, upper west side, midtown and downtown Manhattan. Yellow taxi also has heavy pickup in JFK and LGA. Green taxi has pickup locations more widely distributed in Harlem, Bronx, Brooklyn and Queens, which almost exhibits an exclusive pattern with yellow taxi pickup distribution. In addition, green taxi has a higher pickup trip density in areas closer to Manhattan compared to regions that are farther away.
+
+* 3. For both green and yellow taxi, the density map of dropoff locations has a wider and more diluted distribution pattern compared to the pickup density map. Green taxi can drop off passengers in Manhattan and there is also a heavy dropoff in JFK. Dropoff locations for yellow taxi have a wider spread to Brooklyn and Queens, but with a higher dropoff density in areas closer to Manhattan.
+
+<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Coordinate_distribution_green.png' width=600px>
+<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Coordinate_distribution_yellow.png' width=600px>
+
+As shown in the density plots, the numerical distributions of coordinates have very different patterns between green and yellow taxi. 
+
+* 1. For green taxi, both longitude and latitude distributions have multiple peaks. The longitude  distribution is more centered around a main peak at -73.95 with multiple small peaks next to it spanning from -74.05 to -73.75.The latitude has a wider distribution of 4 peaks with approximately equal height spanning from 40.65 to 40.90. This is consistent with the pickup and dropoff patterns of NYC green taxi visualized in seciton 2.1.1 that green taxi mainly operate in Harlem, Bronx, Brooklyn and Queens. These areas have closer longitude coordinates while the latitude shows larger variation.
+
+* 2. For both longitude and latitude of green taxi trips, there is no significant difference between pickup and dropoff distributions. However, we do notice that peaks for pickup coordinates are sharper and have better separation from surrounding peaks compared to dropoff coordinates. One possible reason is that the pickup locations are relatively more concentrated (eg. at transportation hubs) while dropoff locations have a wider and more diluted distribution pattern, which is also consistent with the map visualization results. 
+
+* 3. The distributions of pickup and dropoff coordinates for yellow taxi approximate normal distribution. The longitude has a sharper peak compared to latitude, which can be explained by the shape of Manhattan Island. The longitude is centered around -73.99 and the latitude around 40.75, which corresponds to the coordinates of several busiest transportation hubs in NYC such as the Grand Central Terminal (lat:40.7527, lon:-73.9772) and the Penn Station (lat:40.7506,lon:-73.9936). These altogether sugguest that trips of NYC yellow taxi are heavily concentrated in Manhattan.
+
+* 4. In addition, there is a small but distinct peak for latitude distribution at 40.64, which corresponds to the coordinate of JFK (lat:40.6413, lon:-73.7781). This also explains the small peak centered around -73.78 for longitude. The other small peak at longitude distribution centered around -73.88 may likely correspond to Jackson Heights (lat:40.7557, lon:-73.8831).
+
+
+
 
 
 ### Heatmap for green taxi pickup and dropoff density by hour
