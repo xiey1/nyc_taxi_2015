@@ -44,6 +44,8 @@ NYC green and yellow taxi trip data in year 2015
 ## Part II: Exploratory data analysis
 Here I randomly selected 1,000,000 trip records from each of green and yellow taxi datasets for exploratory data analysis.
 ### 1. Geographical features
+Here a bounding box with coordinates LL = (-74.30, -73.70, 40.56, 40.90) was used to filter trips. Only trips with pickup and dropoff coordinates that fall in the range defined by the bounding box are analyzed.
+
 <img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Geographical_distribution_map_green.png' width=600px>
 <img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Geographical_distribution_map_yellow.png' width=600px>
 
