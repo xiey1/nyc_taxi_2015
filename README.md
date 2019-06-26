@@ -144,7 +144,7 @@ The animation of taxi trips operating between each cluster is shown here:
 * unique number of routes: 285293
 * The top10 most popular routes account for 1.42% total trips in year 2015 for green taxi (267974, ~734/day)
 
-<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/NYC_green_taxi_top10_routes.png' width=400px>
+<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/NYC_green_taxi_top10_routes.png' width=900px>
 <br>The top10 popular routes is distributed in 3 areas: Jackson Heights, McCarren Park and Harlem. 
 
 <br>For yellow taxi:
@@ -153,6 +153,6 @@ The animation of taxi trips operating between each cluster is shown here:
 * unique number of routes: 320727
 * The top10 most popular routes account for 2.09% total trips in year 2015 for yellow taxi (2977667 trips, ~8158/day)
 
-<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/NYC_yellow_taxi_top10_routes.png' width=400px>
+<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/NYC_yellow_taxi_top10_routes.png' width=900px>
 <br>The top10 popular routes for NYC yellow taxi operate between transportation hubs or popular spots in Manhattan such as Port Authority, Penn Station and Grand Central.
 
