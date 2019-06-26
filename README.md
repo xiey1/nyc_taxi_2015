@@ -124,4 +124,8 @@ The majority of the trips with fare amount of $52 are trips with either pickup o
 <img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/K-means_cluster1_15_green_total.png' width=400px><img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/K-means_cluster1_15_yellow_total.png' width=400px>
 
 The animation of taxi trips operating between each cluster is shown here:
-<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/animation/green_taxi_cluster1_hour_col.gif' width=400px><img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/animation/yellow_taxi_cluster1_hour_col.gif' width=400px>
+<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/animation/green_taxi_cluster1_hour_col.gif' width=420px><img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/animation/yellow_taxi_cluster1_hour_col.gif' width=420px>
+
+<br>The neighborhood interactions:
+
+<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Interaction_map_green.png' width=400px><img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Interaction_map_yellow.png' width=400px>
