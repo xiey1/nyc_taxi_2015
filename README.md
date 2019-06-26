@@ -2,6 +2,8 @@
 NYC green and yellow taxi trip data in year 2015
 <br>Data source: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
+<br>This project has 5 sections with code and detailed explanation in 6 jupyter notebooks.
+
 * [Part I: Summary statistics](#PartI_link)
 * [Part II: Exploratory data analysis](#PartII_link)
 * [Part III: Create animation of geographical heatmaps of trip density and speed](#PartIII_link)
