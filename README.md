@@ -2,14 +2,14 @@
 NYC green and yellow taxi trip data in year 2015
 <br>Data source: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
-* [Part I: Data cleaning, pre-processing, computation and visualization of summary statistics](#PartI_link)
+* [Part I: Summary statistics](#PartI_link)
 * [Part II: Exploratory data analysis](#PartII_link)
 * [Part III: Create animation of geographical heatmaps of trip density and speed](#PartIII_link)
-* Part IV: K-means clustering, data interpretation and visualization
+* [Part IV: K-means clustering](#PartIV_link)
 * Part V: Geohash encoding and analyze the top10 popular routes for NYC green and yellow taxi 
 
 <a id='PartI_link'></a>
-## Part I: Data cleaning, pre-processing, computation and visualization of summary statistics
+## Part I: Summary statistics
 ### Summary of dataset statistics:
     Total number of trip records for NYC green taxi: 19233765
     Total number of trip records for NYC yellow taxi: 146112989
@@ -107,7 +107,6 @@ The majority of the trips with fare amount of $52 are trips with either pickup o
 <a id='PartIII_link'></a>
 ## Part III: Create animation of geographical heatmaps of trip density and speed
 
-
 ### Heatmap for green taxi pickup and dropoff density by hour
 <img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/animation/green_taxi_pickup_hour.gif' width=400px><img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/animation/green_taxi_dropoff_hour.gif' width=400px>
 
@@ -116,3 +115,10 @@ The majority of the trips with fare amount of $52 are trips with either pickup o
 
 ### Heatmap for green and yellow taxi speed by hour
 <img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/animation/green_taxi_speed_hour.gif' width=400px><img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/animation/yellow_taxi_speed_hour.gif' width=400px>
+
+<a id='PartIV_link'></a>
+## Part IV: K-means clustering
+### 1. Cluster pickup and dropoff coordinates
+<br>Here, I chose to use 15 clusters
+<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/K-means_cluster1_15_green_total.png' width=300px>
+<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/K-means_cluster1_15_yellow_total.png' width=300px>
