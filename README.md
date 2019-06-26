@@ -104,7 +104,7 @@ The majority of the trips with fare amount of $52 are trips with either pickup o
 <img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Trip_amount_hour_green.png' width=600px>
 <img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Trip_amount_hour_yellow.png' width=600px>
 
-<a id='PartI_link'></a>
+<a id='PartIII_link'></a>
 ## Part III: Create animation of geographical heatmaps of trip density and speed
 
 
