@@ -74,7 +74,10 @@ Since weekend has very different trip patterns from weekday, it is helpful to an
 <img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Trip_number_hour_dayofweek_green.png' width=600px>
 <img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Trip_number_hour_dayofweek_yellow.png' width=600px>
 
+### 3. Distribution of trip direction
+<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Trip_direction.png' width=600px>
 
+The two main peaks in trip direction for yellow taxi center around 60 and -120 degree respectively. This aligns with the long axis of Manhattan with 60 corresponding to uptown trips and -120 corresponding to downtown trips. Green taxi still has the direction peak centered around -120 degree while the 60 degree peak is not very distinct. This suggests that there are more trips heading downtown compared to updown for green taxi. Since green taxi mainly operates in regions outside Manhanttan, distribution of trip direction has a more uniform distribution except for the peak at -120 degree.
 
 
 ### Heatmap for green taxi pickup and dropoff density by hour
