@@ -68,6 +68,11 @@ As shown in the density plots, the numerical distributions of coordinates have v
 
 * 4. In addition, there is a small but distinct peak for latitude at 40.64, which corresponds to the coordinate of JFK (lat:40.6413, lon:-73.7781). This also explains the small peak centered around -73.78 for longitude. The other small peak at longitude centered around -73.88 may likely correspond to Jackson Heights (lat:40.7557, lon:-73.8831).
 
+### 2. Temporal features
+Since weekend has very different trip patterns from weekday, it is helpful to analyze how hourly trip number fluctuates conditioned on day of week.
+
+<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Trip_number_hour_dayofweek_green.png' width=600px>
+<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Trip_number_hour_dayofweek_yellow.png' width=600px>
 
 
 
