@@ -137,3 +137,22 @@ The animation of taxi trips operating between each cluster is shown here:
 
 <a id='PartV_link'></a>
 ## Part V: Geohash encoding and the top10 popular routes
+<br>I use precision = 6 to encode and decode the pickup and dropoff coordinates of each trip with ±0.61 km error.
+<br>For green taxi:
+* unique number of gh6 encoded pickup points: 1785
+* unique number of gh6 encoded dropoff points: 2397
+* unique number of routes: 285293
+* The top10 most popular routes account for 1.42% total trips in year 2015 for green taxi (267974, ~734/day)
+
+<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/NYC_green_taxi_top10_routes.png' width=400px>
+<br>The top10 popular routes is distributed in 3 areas: Jackson Heights, McCarren Park and Harlem. 
+
+<br>For yellow taxi:
+* unique number of gh6 encoded pickup points: 2877
+* unique number of gh6 encoded dropoff points: 3179
+* unique number of routes: 320727
+* The top10 most popular routes account for 2.09% total trips in year 2015 for yellow taxi (2977667 trips, ~8158/day)
+
+<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/NYC_yellow_taxi_top10_routes.png' width=400px>
+<br>The top10 popular routes for NYC yellow taxi operate between transportation hubs or popular spots in Manhattan such as Port Authority, Penn Station and Grand Central.
+
