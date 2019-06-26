@@ -129,3 +129,7 @@ The animation of taxi trips operating between each cluster is shown here:
 <br>The neighborhood interactions:
 
 <img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Interaction_map_green.png' width=400px><img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Interaction_map_yellow.png' width=400px>
+
+<br>The number of inbound and outbound trips in each area:
+
+<img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Outbound_Inbound_green.png' width=400px><img src='https://github.com/xiey1/nyc_taxi_2015/blob/master/images/Outbound_Inbound_yellow.png' width=400px>
